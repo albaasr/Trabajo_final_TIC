@@ -1,0 +1,162 @@
+body
+{
+    margin: 0;
+    height: 100vh;
+}
+
+div
+{
+    display: flex;
+}
+
+#cabecera
+{
+    background-color: rgb(175, 231, 231);
+    width: 95%;
+    height: 15%;
+
+    padding-left: 5%;
+
+    justify-content: space-around;
+
+    
+}
+
+#logo
+{
+    height: 100%;
+    
+}
+
+
+h1
+{
+    color: rgb(2, 154, 192);
+
+}
+#cuerpo
+{
+    width: 100%;
+    
+
+    flex-direction: column;
+    background-color: rgb(191, 240, 255);
+    
+    
+}
+
+#cuerpo1
+{
+    justify-content:  center;
+}
+
+#cuerpo2
+{
+    flex-direction: column;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+p
+{
+    margin-left: 2vw;
+}
+
+
+
+#Portadas 
+{
+    width: 100%;
+} 
+
+h2
+{
+    color: rgb(8, 78, 78);
+    margin-left: 2.5vw;
+}
+
+.videos
+{
+   justify-content: center;
+
+  
+}
+
+
+
+
+
+
+
+#titulocabecera
+{
+    color: rgb(83, 30, 180);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2vw;
+}
+
+#paginass
+{
+    flex-direction: column;
+    margin-top: 0.5%;
+    
+    
+}
+
+.enlacespag
+{
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+.enlacespagpie
+{
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+#pie
+{
+    background-color: rgb(175, 231, 231);
+
+    width: 100%;
+    height: 10%;
+
+    
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+#enlacespie
+{
+    
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+
+#pielogo
+{
+    height: 10vh;
+
+}
+
+#arriba
+{
+    text-decoration: none;
+}
+
+#volverarriba
+{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#titulopie
+{
+    color:  rgb(83, 30, 180);
+}
