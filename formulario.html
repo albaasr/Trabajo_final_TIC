@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario gustos</title>
+
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <!-- Cabecera -->
+    <div id="cabecera">
+        <div id="logotipoo">
+        <a  href="index.html"><img id="logo" src="img/prelogotipo.png" ></a>
+        </div>
+        <div id="tituloo">
+        <p id="titulocabecera"><b>APASIONADOS POR LA LECTURA</b></p>
+        </div>
+        
+        <div id="paginass" >
+            <a class="enlacespag" href="categorias.html">LIBROS POR CATEGORÍAS</a>
+            <br>
+            <a class="enlacespag" href="compra.html">COMPRA DE LIBROS ONLNE</a>
+            <br>
+            <a class="enlacespag" href="adaptaciones.html">ADAPTACIONES CINEMATOGRÁFICAS</a>
+        </div>
+        
+    </div>
+    
+    <!-- Cuerpo -->
+    
+    <div id="cuerpo">
+        <div id="cuerpo1">
+        <h1><u>FORMULARIO DE GUSTOS</u></h1>
+        </div>
+        
+
+        <div id="cuerpo3">
+            <p>Completa este formulario para recibir recomendaciones personalizadas en función de tus gustos</p>
+        </div>
+
+        <br>
+
+
+        <div id="cuerpo2">
+
+        
+      <form>
+        <table>
+            <tr>
+                <td rowspan="5" class="centrados">Crea tu cuenta</td>
+                <td>
+                    <label for="nombre">Nombre:</label>
+                    <input name="control1" id="nombre" type="text">
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label for="contraseña">Contraseña:</label>
+                    <input name="control2" id="contraseña" type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fecha">Fecha de nacimiento:</label>
+                    <input name="control8" id="fecha" type="date">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="dni">Adjunta una foto de tu DNI</label>
+                    <input name="control10" id="dni" type="file">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="sexo">Sexo:</label>
+                    <select name="control12" id="sexo">
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                        <option value="no">--</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Preferencias de lectura:</td>
+                <td>
+                    <input name="control3" id="accion" type="checkbox">
+                    <label for="accion">Acción y aventura</label>
+                    <br>
+                    <input name="control4" id="fantasía" type="checkbox">
+                    <label for="fantasía">Fantasía</label>
+                    <br>
+                    <input name="control5" id="romance" type="checkbox">
+                    <label for="romance">Romance</label>
+                    <br>
+                    <input name="control6" id="detective" type="checkbox">
+                    <label for="detective">Detective y misterio</label>
+                    <br>
+                    <input name="control7" id="ciencia" type="checkbox">
+                    <label for="ciencia">Horror</label>
+
+                    <br>
+                    <input name="control13" id="clasicos" type="checkbox">
+                    <label for="clasicos">Clásicos</label>
+                    <br>
+                    <input name="control14" id="comic" type="checkbox">
+                    <label for="comic">Cómic y Novela gráfica</label>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>Forma de leer preferida</td>
+                <td>
+                    <input  name="control9" id="fisico" type="radio" value="fisico">
+                    <label for="fisico">Físico</label>
+                    <input  name="control9" id="digital" type="radio" value="fisico">
+                    <label for="digital">Digital</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="centrados" colspan="2">
+                    <label for="dias">Escribe aquí cada cuánto tiempo quieres recibir notificaciones:</label>
+                    <br>
+                    <textarea name="control11" id="dias" cols="80" rows="3"></textarea>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="centrados">
+                    <button type="reset">Borrar información</button>
+                </td>
+                <td class="centrados">
+                    <button type="submit">Enviar formulario</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>  
+
+        </div>
+
+        
+
+        <br>
+    </div>
+    
+
+    <div id="pie">
+
+        <div id="volverarriba">
+            <a  href="index.html"><img src="img/prelogotipo.png" id="pielogo"></a>
+        <p id="titulopie"><b>APASIONADOS POR LA LECTURA</b></p>
+        </div>
+        
+        <a id="arriba" margin-left: 25%;  margin-bottom: -2%; href="#logo">Volver arriba</a>
+        
+
+        <div id="enlacespie">
+        <div>
+        <a class="enlacespagpie" href="nosotros.html">SOBRE NOSOTROS</a>
+        </div>
+        <br>
+        <div>
+            <a class="enlacespagpie" href="formulario.html">FORMULARIO GUSTOS</a>
+        </div>
+        </div>
+        
+    </div>
+
+</body>
+</html>
